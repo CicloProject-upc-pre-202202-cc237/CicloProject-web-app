@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 
 :root{
-    --top-background: #CEFBD8;
-    --mid--background: #93D9E5;
-    --bottom-background: #4F597E;
+    --top-background: #CFFCD9;
+    --mid--background: #8CD5E6;
+    --bottom-background: #C8D2F6;
     --color-primary: #F2774A;
     --color-light: #FFFFFF;
+    --color-black: #000000;
 }
 
 * {
@@ -41,6 +42,7 @@ nav a{
 
 nav a:hover{
     color:var(--color-light);
+    transition: 0.5s;
 }
 
 .logo{
@@ -64,6 +66,10 @@ h2{
     padding: 20px;
 }
 
+.formulario {
+    margin-top: 0px;
+}
+
 .container{
     width: 100%;
     padding: 5px;
@@ -75,6 +81,13 @@ h2{
     text-align: center;
     color: var(--color-primary);
     margin-bottom: 30px;
+}
+
+.form h2 {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: var(--color-black);
 }
 
 .input-container{
@@ -103,6 +116,41 @@ input[type="password"]{
     justify-content: center;
     border-radius: 25px;
     font-size: 20px;
+}
+
+.form-icon{
+    color: var(--color-light);
+    min-width: 200px;
+    min-height: 200px;
+    background: var(--color-primary);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:200px;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    position: relative;
+}
+
+.form-icon:hover {
+    min-width:210px;
+    min-height:210px;
+    transition: 0.5s;
+    cursor:pointer;
+}
+
+.formulario-icon {
+    margin: auto;
+    margin-top: 25px;
+    width:150px;
+    height:150px;
+}
+
+.formulario-icon:hover {
+    margin-top: 30px;
+    transition:0.5s;
 }
 
 .button{
