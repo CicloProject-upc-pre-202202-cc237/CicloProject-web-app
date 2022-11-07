@@ -30,8 +30,11 @@ header{
     padding: 10px;
 }
 
-header a{
+a{
     text-decoration: none;
+}
+
+header a{
     color: var(--color-primary);
 }
 
@@ -178,7 +181,6 @@ input[type="password"]{
     margin-top: 10px;
     margin-bottom: 30px;
     text-align: center; 
-
 }
 
 .form div{
@@ -197,10 +199,8 @@ div a{
 }
 
 .button a{
-    text-decoration: none;
     color: var(--color-light);
 }
-
 
 .icon-container img{
     width: 60px;
