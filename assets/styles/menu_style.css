@@ -30,8 +30,11 @@ header{
     padding: 10px;
 }
 
-header a{
+a{
     text-decoration: none;
+}
+
+header a{
     color: var(--color-primary);
 }
 
@@ -94,6 +97,18 @@ h2{
     transform: translateX(-3.5%);
     margin-bottom: 15px;
 }
+
+.bigInput {
+    margin: 1px;
+    padding: 1px;
+    width: 82%;
+    height: 300px;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 16px 15px 16px 40px;
+    border: 1px solid var(--color-light);
+    border-radius: 25px;
+  }
 
 input[type="text"],
 input[type="password"]{
@@ -165,7 +180,6 @@ input[type="password"]{
     margin-top: 10px;
     margin-bottom: 30px;
     text-align: center; 
-
 }
 
 .form div{
@@ -184,10 +198,8 @@ div a{
 }
 
 .button a{
-    text-decoration: none;
     color: var(--color-light);
 }
-
 
 .icon-container img{
     width: 60px;
@@ -217,6 +229,12 @@ div a{
     .form{
         max-width: 500px;
         margin-top: 60px;
+    }
+}
+
+@media (max-width:430px) {
+    .free-icon{
+        display: none !important;
     }
 }
 
